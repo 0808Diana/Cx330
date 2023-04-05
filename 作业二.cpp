@@ -22,11 +22,15 @@ int main()
 			}
 		}
 	}
+	if(a[1]==a[0] && a[1]!=a[2])
+		{
+			cout<<a[1];
+		}
 	for(i=1;i<n;i++)
 	{
 		if(a[i]==a[i+1] && a[i]!=a[i-1] && a[i]!=a[i+2])
 		{
-		   printf("%d ",a[i]);
+		   cout<<a[i];
 		}
 	}
 	return 0;
